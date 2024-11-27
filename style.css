@@ -1,0 +1,141 @@
+body {
+    background: #3f3c3c;
+}
+
+.upperheader {
+    justify-content: center;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    z-index: 100;
+    border-radius: 50px;
+}
+
+.upperheader :first-child {
+    justify-content: left;
+    justify-items: center;
+}
+
+header {
+    display: block;
+}
+
+button {
+    height: 100px;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    border-color: #fff;
+    border: 0px;
+}
+
+button :hover {
+    opacity: 0.98px;
+}
+
+.sectionArea {
+    background: darkgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    line-height: 60px;
+    z-index: 100;
+    border-radius: 50px;
+    padding: 0px 50px;
+    gap: 10px;
+}
+
+.mainPage {
+    background-color: black;
+    border-radius: 50px;
+    padding: 40px 50px;
+}
+
+.mainPage .text {
+    color: white;
+}
+
+.bloxxeddoorsimage {
+    border-radius: 10px;
+}
+
+.bloxxeddoorsgametext {
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+    font-size: 50px;
+}
+
+.BloxxedDOORS {
+    border-radius: 50px;
+    background-color: darkgrey;
+    padding: 50px 50px;
+    width: 600px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.BloxxedDOORS :hover {
+    opacity: 0.98;
+    transition: all .3s;
+}
+
+.PlayDoors {
+    background-color: greenyellow;
+    width: 500px;
+    font-size: 50px;
+}
+
+.groupBloxtexttitle {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.BloxProgramming {
+    background: black;
+    border-radius: 25px;
+    padding: 50px 50px;
+    justify-content: center;
+    justify-items: center;
+    width: 350px;
+}
+
+.BloxProgramming :hover {
+    background: black;
+    transition: all .3s;
+}
+
+.groupThumbnail {
+    border-radius: 10px;
+}
+
+.groupThumbnail :hover {
+    border-radius: 55px;
+    transition: all .3s;
+}
+
+.visitBloxGroupButton {
+    background-color: #3f3c3c;
+    transition: all .3s;
+}
+
+@media only screen and (max-width:840px) {
+    .upperheader {
+        display: flex;
+        flex-direction: column;
+    }
+    .groups {
+        display: flex;
+        flex-direction: column;
+    }
+    .games {
+        display: flex;
+        flex-direction: column;
+    }
+}
